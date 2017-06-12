@@ -1,0 +1,10 @@
+.header-title{
+    color: #2196F3;
+    font-size: 40px;
+    line-height: 55px;
+    padding-left: 11px;
+    font-weight: bolder;
+    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
