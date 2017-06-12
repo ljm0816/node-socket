@@ -27,21 +27,5 @@ router.get('/welcome', function (req, res, next) {
 	res.render('welcome');
 });
 
-/**
- * 返回json数据
- */
-router.get('/testget', function (req, res, next) {
-	res.send({title: 'Express111', env: app.get('env')});
-});
-
-/**
- * 返回json数据
- */
-
-router.get('/chat', function (req, res, next) {
-	var type = parseInt(req.query.type) || 1;
-	console.log(type);
-	res.render("chat",{type});
-});
 
 module.exports = router;
